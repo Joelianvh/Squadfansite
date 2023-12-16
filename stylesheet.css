@@ -1,0 +1,386 @@
+body{
+    background: linear-gradient(rgb(53, 53, 53), black);
+    color: white;
+    margin: 0;
+    cursor:crosshair;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: gold;
+}
+
+h5, h3{
+    color: gold;
+    font-size: 2em;
+}
+p, ul{
+    font-size: 1.7em;
+}
+h2{
+    text-align: center;
+    font-size: 4em;
+    background: linear-gradient(rgba(101, 101, 101, 0.427), rgb(0, 0, 0));
+    background-position: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-style: ridge;
+    border-radius: 2em;
+    border: solid white 0.1em;
+}
+abbr{
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:active, a:focus{
+    color: gold;
+    background-color: black;
+    border-radius: 2em  ;
+    border: dashed 0.1em gold   ;
+    transform: scale(1.5);
+}
+/* Backbone rules/////////////////////////////////////////////////////////////// */
+/* Background images/////////////////////////////////////////////////////////////// */
+.index .background_container{
+    margin-top: 0;
+    height: 80vh;
+    background: linear-gradient(rgba(128, 128, 128, 0.575), rgb(43, 43, 43)), url(images/bigg_background_image.jpg);/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fsquad.fandom.com%2Fwiki%2FSquad_Wiki&psig=AOvVaw1vOPXWxzQHRGtNBVOaQckE&ust=1702841697462000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjPg-bZlIMDFQAAAAAdAAAAABAD */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.maps .background_container{
+    margin-top: 0;
+    height: 80vh;
+    background: linear-gradient(rgba(128, 128, 128, 0.575), rgb(43, 43, 43)), url(images/other_big_background_image.jpg);/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fgg.deals%2Ffreebie%2Ffree-weekend-on-steam-squad%2F&psig=AOvVaw05lCfj42Ku5uoT0stxQtIl&ust=1702841853003000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjOy7HalIMDFQAAAAAdAAAAABAM */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.comms .background_container{
+    margin-top: 0;
+    height: 80vh;
+    background: linear-gradient(rgba(128, 128, 128, 0.575), rgb(43, 43, 43)), url(images/tank_soldier_background.jpg);/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapercave.com%2Fsquad-game-wallpapers&psig=AOvVaw1vOPXWxzQHRGtNBVOaQckE&ust=1702841697462000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjPg-bZlIMDFQAAAAAdAAAAABAI */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.kits .background_container{
+    margin-top: 0;
+    height: 80vh;
+    background: linear-gradient(rgba(128, 128, 128, 0.575), rgb(43, 43, 43)), url(images/RPK_implacement_background.jpg);/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nexus.gg%2Fvulcanhdgaming%2Fsquad&psig=AOvVaw05lCfj42Ku5uoT0stxQtIl&ust=1702841853003000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjOy7HalIMDFQAAAAAdAAAAABAD */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ /* Background image/////////////////////////////////////////////////////////////// */
+ /* Header/////////////////////////////////////////////////////////////// */
+
+header{
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.849);
+    text-align: center;
+    transition: all 200ms ease;
+    border: white double 0.1rem;
+}
+h1{
+    margin: 1rem;
+    font-size: 1.5em;
+    color: gold;
+}
+nav ul li a, nav ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+    width: auto;
+    transition-timing-function:cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    justify-content: space-around;
+    padding: 0;
+}
+nav ul li a{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    padding-top: 0.5%;
+}
+header:hover{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 2em;
+   
+}
+nav ul li:hover{
+    font-size: 150%;
+    transition-duration: 400ms ;
+    transition: all 200ms ease;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a{
+    transition: all 200ms ease;
+}
+/* Header////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Maps///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.maps main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.maps div{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 10rem;
+}
+.maps main article{
+    display: flex;
+}
+.maps main article img:nth-child(2){
+    width: 70rem;
+    height: 50rem;
+    width: 45vw;
+    height: 31vw;
+    margin-left: 10%;
+    border-radius: 2rem;
+    border: 0.1em solid white;
+}
+/* Flip card on Maps///////////////////////////////////// */
+.card_container {
+    width: 30vw;
+    height: 30vw;  
+}
+.card_container:hover .card{
+    transform: rotateY(180deg);
+}
+.card
+{
+    height: 100%;
+    width: 100%;
+    transition: all 1000ms;
+    transform-style: preserve-3d;
+}
+.front, .back{
+    height: 100%;
+    width: 100%;
+    border-radius: 2em;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front img{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 2em;
+    border: 0.1em solid white;
+}
+.back{
+    background:linear-gradient(rgb(43,43,43), black);
+    text-align: center;
+    transform: rotateY(180deg);
+    justify-content: center;
+    align-items: center;
+    border: 0.1em solid white;
+}
+/* Flip card on Maps///////////////////////////////////// */
+/* Maps////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Index////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.index main{
+    margin: 1%;
+}
+.index main div img{
+    width: 80%;
+}
+.index main div{
+    border: 0.1em solid white;
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+}
+.index main div{
+    display: flex;
+    flex-direction: row;
+}
+.index main div img{
+    width: 80%;
+    height: auto;
+}
+.index main div div{
+    display: block;
+    text-align: center;
+}
+.index main div:last-of-type div{
+    background-color: rgb(34,38,43);
+}
+/* Index////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Comms////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.comms main div{
+    display: flex;
+    flex-direction: column;
+}
+
+.comms main div:first-of-type section:first-of-type p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.comms main div:first-of-type img:first-of-type{
+    width: 50vw;
+    align-self: center;
+    padding-top: 2em;
+}
+.comms main div section h3:first-of-type{
+    text-align: left;
+}
+.comms main div.armor{
+    display: flex;
+    flex-direction: row;
+    border: solid white 0.1em;
+
+}
+.comms main div.armor section:first-of-type p {
+    text-align: left;
+    width: 70%;
+    margin: 0;
+}
+.comms main div.armor section:first-of-type{
+    margin-left: 2em;
+}
+.comms main div.armor img{
+    align-self: center;
+    margin-right: 2em;
+    margin-bottom: 2em;
+
+}
+.comms main div section:nth-child(4){
+    padding-top: 2em;
+    border: solid white 0.1em;
+}
+.comms main div section:nth-child(4) p, .comms main div section:nth-child(4) h3 {
+    padding-top: 2em;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+.comms main div section:nth-child(4) ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 2em;
+    padding: 2em;
+    border: solid;
+}
+
+.comms main div section:nth-child(4) div:only-of-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.comms main div section:nth-child(4) div:only-of-type div img{
+    width: 45vw;
+    margin: 2em;
+    border-radius: 3em;
+}
+.comms main div:nth-child(5) button, .comms main div:last-child div:last-child button {
+    width: 10em;
+    align-self: center;
+    margin-top: 2em;
+   
+}
+.comms main div:last-child div:last-child button{
+    width: 15em;
+}
+
+.comms ul p{
+    font-size: 1em;
+} /* Because font size in the p and in the ul is increased bij 1,7em. without this line the p within this ul will be 2x larger then its supposed to be */
+.comms main div section div{
+    text-align: center;
+}
+.comms main div:nth-last-child(1) section ul{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    list-style:none;
+    text-align: center;
+}
+.comms main div:nth-last-child(1) section ul li{
+ border: solid 0.1em white;
+ padding: 1em;
+
+}
+.comms main div:nth-last-child(1) section ul img{
+    width: 20vw;
+    height: 20vh;
+}
+/* Comms/////////////////////////////////////////////////////////////// */
+/* Kits and vehicles/////////////////////////////////////////////////////////////// */
+.kits main div section{
+    display: flex;
+    flex-direction: column;
+    border: double white 0.1em;
+}
+.kits main div{
+    display: flex;
+}
+
+.kits main div section img{
+    width: 10vw;
+    align-self: center;
+    border-radius: 2em;  
+}
+.kits main div section{
+    padding-bottom: 10em;
+}
+
+.kits main div section p{
+    padding: 1em;
+}
+.kits{
+    text-align: center;
+}
+
+.kits main div div section {
+    width:fit-content;
+    background: linear-gradient(rgb(36, 35, 35), black);
+}
+.kits main p:nth-last-of-type(2), .kits main p:nth-last-child(3){
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.kits main div:nth-child(4), .kits main div:nth-child(8){
+    justify-content: center;
+    padding: 5em;
+}
+/* Kits and vehicles/////////////////////////////////////////////////////////////// */
+/* Footer///////////////////////////////////////////////////////////////  */
+footer{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+/* back to top button///////////////////////////////////////////////////////////////  */
+#back_to_top, button{
+    justify-content: center;
+    bottom: 1vh;
+    padding: 0.5em 1em;
+    background-color: gold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: all 0.3s;
+    border: gold solid 0.1em;
+}
+
+#back_to_top:hover, div button:hover, #back_to_top:focus, div button:focus{
+    background-color: #000000;
+    color: gold;
+    border: 0.1em dashed gold;
+    border-radius: 2em;
+    transform: scale(1.5);        
+}
+/* back to top button///////////////////////////////////////////////////////////////  */
+/* Footer///////////////////////////////////////////////////////////////  */
